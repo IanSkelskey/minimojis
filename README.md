@@ -6,7 +6,8 @@
 
 Eight free emojis from **[Minimojis](https://ianskelskey.itch.io/minimojis)**, a pack of 50
 pixel-art emoticons drawn on a 16×16 canvas. They're hosted here so you can drop them straight
-into GitHub comments, issues, pull requests and READMEs.
+into GitHub comments, issues, pull requests and READMEs, and into comments on itch.io. Please
+do — I'd love to see them turn up on other people's pages.
 
 <p align="center">
   <img src="64x64/crying_face.png" width="32" alt="crying_face">&nbsp;
@@ -21,6 +22,8 @@ into GitHub comments, issues, pull requests and READMEs.
 
 ## Using them
 
+### On GitHub
+
 Paste this into any comment, swapping in the name of the emoji you want:
 
 ```html
@@ -33,6 +36,19 @@ That gives you a 32px emoji that stays crisp. For one that sits inline with your
 ```html
 <img src="https://raw.githubusercontent.com/ianskelskey/minimojis/main/32x32/heart_eyes.png" width="16">
 ```
+
+### On itch.io
+
+itch.io comments take Markdown images, and the emoji shows at the file's own size, so pick
+the folder for the size you want. `32x32/` sits nicely in a line of text:
+
+```markdown
+![heart_eyes](https://raw.githubusercontent.com/ianskelskey/minimojis/main/32x32/heart_eyes.png)
+```
+
+Use `64x64/` for a bigger reaction, or `16x16/` for the original size.
+
+### The emojis
 
 | | Name | | Name |
 |:-:|---|:-:|---|
@@ -65,8 +81,8 @@ I'd like to see the pack grow past 100. If there's an emoji you'd use that isn't
 
 ## License
 
-The eight samples in this repo are free to use in comments, issues, READMEs, and personal and
-commercial projects. Credit is appreciated: **Minimojis by Ian Skelskey**.
+The eight samples in this repo are free to use in GitHub and itch.io comments, issues,
+READMEs, and personal and commercial projects. Credit is appreciated: **Minimojis by Ian Skelskey**.
 
 Please don't redistribute them as an asset pack or emoji set of your own.
 
